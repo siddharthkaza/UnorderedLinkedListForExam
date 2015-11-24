@@ -19,7 +19,7 @@ public interface LinkedListGeneric<T> {
     
     /**
      * initialize the list to an empty state. the first pointer should point to null
-     * 2 points.
+     * 5 points.
      */
     public void initializeList(); 
     
@@ -42,7 +42,15 @@ public interface LinkedListGeneric<T> {
      * 5 points
      * @return LinkedListNode
      */
-    public T front();                    
+    public T front();   
+    
+    /**
+     * return the last node, just return don't delete it
+     * 5 points
+     * @return LinkedListNode
+     */
+    public T last();   
+    
     
     /**
      * Return if the item is in the list. 
